@@ -1,0 +1,410 @@
+fileFormatVersion: 2
+guid: 3e15d1f644ad73340be5d4e69216be0f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6536925323206754888
+    second: Purple Soul 3_2
+  - first:
+      213: 5429192374277349058
+    second: Purple Soul 3_2
+  - first:
+      213: 3371202825280543201
+    second: Purple Soul 3_2
+  - first:
+      213: 5512390324905832388
+    second: Purple Soul 3_3
+  - first:
+      213: -9128243189493054027
+    second: Purple Soul 3_4
+  - first:
+      213: -4685314435448473756
+    second: Purple Soul 3_5
+  - first:
+      213: 2482205684378323884
+    second: Purple Soul 3_6
+  - first:
+      213: -2749084992289300305
+    second: Purple Soul 3_7
+  - first:
+      213: 3018243279359933902
+    second: Purple Soul 3_8
+  - first:
+      213: -8719623052348951950
+    second: Purple Soul 3_9
+  - first:
+      213: 8601000057925370050
+    second: Purple Soul 3_9
+  - first:
+      213: -7025760276849869354
+    second: Purple Soul 3_11
+  - first:
+      213: 1885085742528086814
+    second: Purple Soul 3_0
+  - first:
+      213: 1717927527299423345
+    second: Purple Soul 3_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 22
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Purple Soul 3_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1
+        width: 17
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8428ef482f2d7ba50800000000000000
+      internalID: 6536925323206754888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Soul 3_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1
+        width: 22
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce9f0603bd585b40800000000000000
+      internalID: 5429192374277349058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Soul 3_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 20
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfef4b6bc1ff7c40800000000000000
+      internalID: 5512390324905832388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Soul 3_4
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1
+        width: 31
+        height: 31
+      alignment: 9
+      pivot: {x: 0.4, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b543e2ce27f15180800000000000000
+      internalID: -9128243189493054027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Soul 3_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1
+        width: 22
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4677516485b6afeb0800000000000000
+      internalID: -4685314435448473756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Soul 3_6
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1
+        width: 31
+        height: 31
+      alignment: 9
+      pivot: {x: 0.4, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab43dc2be0927220800000000000000
+      internalID: 2482205684378323884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Soul 3_7
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1
+        width: 20
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa02d39c3c949d9d0800000000000000
+      internalID: -2749084992289300305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Soul 3_8
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1
+        width: 22
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd75ff6544f2e920800000000000000
+      internalID: 3018243279359933902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Soul 3_9
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1
+        width: 17
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c081cd8bf3ec5770800000000000000
+      internalID: 8601000057925370050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Soul 3_11
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 7
+        width: 23
+        height: 25
+      alignment: 9
+      pivot: {x: 0.44, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd3055904c7f7e90800000000000000
+      internalID: -7025760276849869354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Soul 3_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1
+        width: 17
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e134a86ce7b292a10800000000000000
+      internalID: 1885085742528086814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Soul 3_10
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1
+        width: 17
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c1c8eebfd47d710800000000000000
+      internalID: 1717927527299423345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
