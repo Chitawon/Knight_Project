@@ -144,7 +144,7 @@ TextureImporter:
       213: 3073187448027260456
     second: cave_tileset_46
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -161,9 +161,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -172,9 +175,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -195,10 +198,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -210,6 +218,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -222,6 +231,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -234,6 +244,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1173,9 +1197,53 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      cave_tileset_0: -5156352867933855857
+      cave_tileset_1: 2410855964841853224
+      cave_tileset_10: -459090916385118345
+      cave_tileset_11: -3838068836538513442
+      cave_tileset_12: 9094930026030205414
+      cave_tileset_13: 8964787192734010602
+      cave_tileset_14: 6312211382056438666
+      cave_tileset_15: 5239765187843398177
+      cave_tileset_17: -1847478133570073814
+      cave_tileset_18: -2477321432101564407
+      cave_tileset_19: -321007161282991147
+      cave_tileset_2: 1495855589246707452
+      cave_tileset_20: -1571476522323885211
+      cave_tileset_21: -8758238242060503291
+      cave_tileset_22: -6842950459031806627
+      cave_tileset_23: 5066135162595758457
+      cave_tileset_24: 772215051723288383
+      cave_tileset_25: 7835337780658896586
+      cave_tileset_26: 9201768241075757565
+      cave_tileset_27: 6538025651780615366
+      cave_tileset_28: 793440941103588652
+      cave_tileset_29: -2338148010999444534
+      cave_tileset_3: 8594060197203662573
+      cave_tileset_30: 546798636376603236
+      cave_tileset_31: -1733300655470409904
+      cave_tileset_32: -8140382764855957945
+      cave_tileset_33: -4828914768524951240
+      cave_tileset_34: -3449252445038131641
+      cave_tileset_37: -6089692264334055928
+      cave_tileset_38: -51857649455443690
+      cave_tileset_39: -6061731634748524272
+      cave_tileset_4: -3103018481658000730
+      cave_tileset_40: 4467663253192448564
+      cave_tileset_41: 4135917446622046134
+      cave_tileset_42: -2637303498682912587
+      cave_tileset_43: -2813138047414944199
+      cave_tileset_44: -1552370057409580906
+      cave_tileset_45: -3926770773285038856
+      cave_tileset_46: 3073187448027260456
+      cave_tileset_5: -8077325402080291620
+      cave_tileset_6: 4825128865103763961
+      cave_tileset_7: -3836094863721941627
+      cave_tileset_8: -4092001772360677949
+      cave_tileset_9: 680657890706262406
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

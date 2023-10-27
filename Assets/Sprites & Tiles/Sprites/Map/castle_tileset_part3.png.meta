@@ -432,7 +432,7 @@ TextureImporter:
       213: 5757335488472318010
     second: castle_tileset_part3_142
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -449,9 +449,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -460,9 +463,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -483,10 +486,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -498,6 +506,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -510,6 +519,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -522,6 +532,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -3540,9 +3564,152 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      castle_tileset_part3_0: 7864165168623777088
+      castle_tileset_part3_1: -8479468031776872150
+      castle_tileset_part3_10: 5512137177754679119
+      castle_tileset_part3_100: -9020008274733915271
+      castle_tileset_part3_101: 919781039745764970
+      castle_tileset_part3_102: -7061387904935476040
+      castle_tileset_part3_103: -9220945031837063181
+      castle_tileset_part3_104: 701722451086090607
+      castle_tileset_part3_105: -2468124390479513595
+      castle_tileset_part3_106: 6779748420791555203
+      castle_tileset_part3_107: -3122649278514375706
+      castle_tileset_part3_108: -8415919222799670888
+      castle_tileset_part3_109: -1640686379891748037
+      castle_tileset_part3_11: 8654727738922653688
+      castle_tileset_part3_110: -623306874012292185
+      castle_tileset_part3_111: -2573427703509570255
+      castle_tileset_part3_112: -4418494138950696449
+      castle_tileset_part3_113: -6361288541009275874
+      castle_tileset_part3_114: 4477656336412394316
+      castle_tileset_part3_115: 4967732421256027948
+      castle_tileset_part3_116: -2463609009820536999
+      castle_tileset_part3_117: 4269765521389185992
+      castle_tileset_part3_118: -4841872897681649877
+      castle_tileset_part3_119: 596004508801503717
+      castle_tileset_part3_12: -408471395944483453
+      castle_tileset_part3_120: 8132300658532308661
+      castle_tileset_part3_121: 445173361759156457
+      castle_tileset_part3_122: 5241080580284777781
+      castle_tileset_part3_123: -156022548850228320
+      castle_tileset_part3_124: 5470806304287080962
+      castle_tileset_part3_125: 3367702007199761891
+      castle_tileset_part3_126: 5765447215343460077
+      castle_tileset_part3_127: -7047001568773244819
+      castle_tileset_part3_128: -9009162173681696678
+      castle_tileset_part3_129: 1381984244633736383
+      castle_tileset_part3_13: -1602119837887682838
+      castle_tileset_part3_130: -2437949318905535985
+      castle_tileset_part3_131: 2521270693434583713
+      castle_tileset_part3_132: -5566217371126820500
+      castle_tileset_part3_133: 1431655415313589295
+      castle_tileset_part3_134: -3010724723394224291
+      castle_tileset_part3_135: 7060426053035959980
+      castle_tileset_part3_136: -3057835557231731922
+      castle_tileset_part3_137: -8328633273855738133
+      castle_tileset_part3_138: 8307264772045153673
+      castle_tileset_part3_139: 1073132226447901427
+      castle_tileset_part3_14: -8764364595874767682
+      castle_tileset_part3_140: -5459743566131615334
+      castle_tileset_part3_141: -7773620169752207529
+      castle_tileset_part3_142: 5757335488472318010
+      castle_tileset_part3_15: 6405440690937401782
+      castle_tileset_part3_16: -7316231142748570176
+      castle_tileset_part3_17: 9127257391480611251
+      castle_tileset_part3_18: 5897194410281096717
+      castle_tileset_part3_19: -8183076162763699933
+      castle_tileset_part3_2: -963273861533089260
+      castle_tileset_part3_20: -3218609828133897557
+      castle_tileset_part3_21: 7839988841003153226
+      castle_tileset_part3_22: 7731982386134711303
+      castle_tileset_part3_23: 3921603054696421220
+      castle_tileset_part3_24: -6228767236217682362
+      castle_tileset_part3_25: -12968259759874668
+      castle_tileset_part3_26: -8830061756145249569
+      castle_tileset_part3_27: 1355071864282053166
+      castle_tileset_part3_28: 7422703219105323360
+      castle_tileset_part3_29: 3466379384846232760
+      castle_tileset_part3_3: 6026137662872208541
+      castle_tileset_part3_30: -3647685918542222862
+      castle_tileset_part3_31: 4630554582496972288
+      castle_tileset_part3_32: 6129165332830425147
+      castle_tileset_part3_33: 8937455356379247536
+      castle_tileset_part3_34: -2278671535000796784
+      castle_tileset_part3_35: -4522501267443188221
+      castle_tileset_part3_36: 1187305674588021080
+      castle_tileset_part3_37: 1487673345572966372
+      castle_tileset_part3_38: -8331238524767816241
+      castle_tileset_part3_39: -3185939594767251105
+      castle_tileset_part3_4: 7725366669274979516
+      castle_tileset_part3_40: -8120366295619934684
+      castle_tileset_part3_41: -135850519545997204
+      castle_tileset_part3_42: -2515134131783086076
+      castle_tileset_part3_43: -7336359917764037732
+      castle_tileset_part3_44: 369579767105057309
+      castle_tileset_part3_45: -8205120871570266518
+      castle_tileset_part3_46: -6187623502727043758
+      castle_tileset_part3_47: 3001923490885626136
+      castle_tileset_part3_48: -5679357686094945
+      castle_tileset_part3_49: -7194434911911209025
+      castle_tileset_part3_5: 860516005445655633
+      castle_tileset_part3_50: -3996997707924019393
+      castle_tileset_part3_51: 954620564799047265
+      castle_tileset_part3_52: 2394887229523565984
+      castle_tileset_part3_53: 4150362875435325122
+      castle_tileset_part3_54: 6104447989646519991
+      castle_tileset_part3_55: -3531342394637699493
+      castle_tileset_part3_56: 4926248720680157437
+      castle_tileset_part3_57: 1536268845391646526
+      castle_tileset_part3_58: -3289961748574737636
+      castle_tileset_part3_59: 4500748934932131832
+      castle_tileset_part3_6: -32568593816861171
+      castle_tileset_part3_60: 6535675426001280401
+      castle_tileset_part3_61: -4482456655175175222
+      castle_tileset_part3_62: -2531851954679401865
+      castle_tileset_part3_63: -5633829881891543246
+      castle_tileset_part3_64: -8831416882608312305
+      castle_tileset_part3_65: 4422688329296472229
+      castle_tileset_part3_66: -1937556555770994450
+      castle_tileset_part3_67: 1840768172650064004
+      castle_tileset_part3_68: -9218520244459737969
+      castle_tileset_part3_69: -3053820432523117434
+      castle_tileset_part3_7: 1315957746759116475
+      castle_tileset_part3_70: 5416906134742421651
+      castle_tileset_part3_71: 7773344366545956726
+      castle_tileset_part3_72: 2547149423386964945
+      castle_tileset_part3_73: -3206974690242110536
+      castle_tileset_part3_74: 3010213491003394150
+      castle_tileset_part3_75: -8407888868233226079
+      castle_tileset_part3_76: -7507944386573511468
+      castle_tileset_part3_77: 4824765833591729047
+      castle_tileset_part3_78: -8349764160088612816
+      castle_tileset_part3_79: 844169938866676927
+      castle_tileset_part3_8: 8230208863442781802
+      castle_tileset_part3_80: 7434380584156260843
+      castle_tileset_part3_81: -2453392579990640443
+      castle_tileset_part3_82: 6645319162248859842
+      castle_tileset_part3_83: -6166323556123209823
+      castle_tileset_part3_84: 9122957041540709905
+      castle_tileset_part3_85: -8112864827290005102
+      castle_tileset_part3_86: 4123717796219013684
+      castle_tileset_part3_87: 1116826122765784056
+      castle_tileset_part3_88: -3240325682686313170
+      castle_tileset_part3_89: 5145782115077548611
+      castle_tileset_part3_9: -2708740668905151148
+      castle_tileset_part3_90: -1158393719065648408
+      castle_tileset_part3_91: 3712604131794450281
+      castle_tileset_part3_92: 2665437986201554076
+      castle_tileset_part3_93: -4172312009517303398
+      castle_tileset_part3_94: -6704629318736221411
+      castle_tileset_part3_95: 1808538647179891114
+      castle_tileset_part3_96: -2554419972362510288
+      castle_tileset_part3_97: -1780563114816402105
+      castle_tileset_part3_98: -2808479529123310178
+      castle_tileset_part3_99: 2351470048680527169
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
